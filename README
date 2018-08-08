@@ -1,0 +1,12 @@
+This is a docker container for the deejayeye-modder tool.
+Check this out: https://github.com/Bin4ry/deejayeye-modder/
+
+Usage:
+- Install "docker" (see docker.com for info)
+- Clone this repo into a local directory.
+- From that, execute the "build.sh". This will build and Ubuntu 16.04 with all dependencies for deejayeye-modder. Note that this might take some time...patience!
+- When this has succeded place your original APK (see deejayeye-modder docs) in the directory and name it "orig.apk".
+- Execute "run.sh" and follow the instructions.
+- After execution the result can be found in the "output" directory.
+
+Good luck!
