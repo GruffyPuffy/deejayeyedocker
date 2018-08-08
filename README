@@ -5,8 +5,15 @@ Usage:
 - Install "docker" (see docker.com for info)
 - Clone this repo into a local directory.
 - From that, execute the "build.sh". This will build and Ubuntu 16.04 with all dependencies for deejayeye-modder. Note that this might take some time...patience!
-- When this has succeded place your original APK (see deejayeye-modder docs) in the directory and name it "orig.apk".
+- When this has succeeded place your original APK (see deejayeye-modder docs) in the directory and name it "orig.apk".
 - Execute "run.sh" and follow the instructions.
 - After execution the result can be found in the "output" directory.
+
+Update:
+Docker for Windows users:
+- Enable sharing (to get the output from the executed patch)
+- Update the run.bat with correct path to your output directory (default: D:\docker\deejayeyedocker)
+
+Now tested on Windows 10 Pro + Docker for Windows as well as Ubuntu 18.04.
 
 Good luck!
