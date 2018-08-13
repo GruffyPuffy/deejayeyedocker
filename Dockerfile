@@ -23,7 +23,7 @@ WORKDIR /root/deejayeye-modder/tools
 RUN wget https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.3.3.jar && mv apktool_2.3.3.jar apktool.jar && wget https://github.com/appium/sign/raw/master/dist/sign.jar
 
 ############### HACKME ################
-ADD orig.apk /root/deejayeye-modder/PutApkHere
+ADD ./orig.apk /root/deejayeye-modder/PutApkHere
 WORKDIR /root/deejayeye-modder
 
 #CMD ["bash"]
